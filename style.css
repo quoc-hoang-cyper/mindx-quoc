@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: dimgrey;
+}
+.header h1{
+    font-size: large;
+    text-align: center;
+    padding-top: 100px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+.left{
+    width: 35%;
+    background-color: dodgerblue;
+}
+.left ul{
+    margin-left: 25px;
+    list-style: none;
+}
+.right{
+
+    background-color: firebrick;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}
+.footer div{
+    text-align: center;
+} 
